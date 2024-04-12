@@ -1,0 +1,20 @@
+green U is unmodified
+$ git status 
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+
+ why untracked test.txt?
+github  folder (git-file.txt) => clone in local() =>
+              2 sections (after clone we get 2 copy )
+                     1.git folder
+                     2.working  folder 
+
+
+now , working folder created(test.txt) so untracking file
+todo> test.text >> put in git folder >> put in github folder
+
+to make test.txt as tracked file 
+$ git add test.txt
