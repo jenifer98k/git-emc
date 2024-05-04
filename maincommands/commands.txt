@@ -1,0 +1,48 @@
+
+when you make commits in Git, your username and email are recorded with each commit, 
+making it easier to track who contributed what to a project.
+command in command prompt
+$ git config --global user.name "jenifer98k"
+$ git config --global email.name "joyjenifermiracle@gmail.com"
+
+
+
+github folder  put inside local folder
+ open terminal
+ $ git clone
+ click code green btn copy link http 
+ $ git clone link  // done
+
+
+ change directory 
+ $ cd github folder
+
+
+
+----------------------------------------------------------------------------
+ //new file in local => show in github 
+  new file shows ----------------U(unmodified)
+  
+  check status
+  $ git status    //untracked new  file
+
+// to add in gitfolder(staging area)
+  $ git add file name 
+check status file added 
+
+//saved in local git but in in github 
+$ git commit -m "new mesg"
+
+
+//move file to github 
+$ git push origin main
+
+now added new file 
+
+steps :(modify , delete , all the chnges same steps )
+file create 
+add file 
+commit file 
+push file 
+---------------------------------------------------------------------
+  ------------------
